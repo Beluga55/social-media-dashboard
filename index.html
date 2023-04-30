@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Elements Until Toggle Button -->
+    <header>
+      <div class="background"></div>
+      <nav class="nav">
+        <div class="header__text">
+          <h1>Social Media Dashboard</h1>
+          <p>Total Followers: 23,004</p>
+          <hr />
+        </div>
+
+        <div class="nav flex">
+          <p>Dark Mode</p>
+          <label class="toggle__button">
+            <input type="checkbox" id="checkbox" />
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- First Section -->
+      <section>
+        <div class="followers__container container grid">
+          <div class="facebook__container">
+            <div class="icons flex">
+              <img src="images/icon-facebook.svg" alt="facebook-icon" />
+              <p>@nathanf</p>
+            </div>
+            <h1>1987</h1>
+            <p>Followers</p>
+
+            <div class="status flex">
+              <img src="images/icon-up.svg" alt="up-icon" />
+              <p>12 Today</p>
+            </div>
+          </div>
+
+          <div class="twitter__container">
+            <div class="icons flex">
+              <img src="images/icon-twitter.svg" alt="twitter-icon" />
+              <p>@nathanf</p>
+            </div>
+
+            <h1>1044</h1>
+            <p>Followers</p>
+
+            <div class="status flex">
+              <img src="images/icon-up.svg" alt="up-icon" />
+              <p>99 Today</p>
+            </div>
+          </div>
+
+          <div class="instagram__container">
+            <div class="gradient"></div>
+            <div class="icons flex">
+              <img src="images/icon-instagram.svg" alt="instagram-icon" />
+              <p>@nathanf</p>
+            </div>
+
+            <h1>11k</h1>
+            <p>Followers</p>
+
+            <div class="status flex">
+              <img src="images/icon-up.svg" alt="up-icon" />
+              <p>1099 Today</p>
+            </div>
+          </div>
+
+          <div class="youtube__container">
+            <div class="icons flex">
+              <img src="images/icon-youtube.svg" alt="instagram-icon" />
+              <p>@nathanf</p>
+            </div>
+
+            <h1>8239</h1>
+            <p>Subscribers</p>
+
+            <div class="status flex">
+              <img src="images/icon-down.svg" alt="down-icon" />
+              <p>144 Today</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Second Section -->
+      <section class="container">
+        <h2 class="section__title">Overview - Today</h2>
+        <div class="overview__container grid">
+          <!-- Content -->
+          <div class="facebook__views">
+            <div class="left">
+              <p>Page Views</p>
+              <h2>87</h2>
+            </div>
+
+            <div class="right">
+              <img src="images/icon-facebook.svg" alt="facebook-icon" />
+              <div class="status flex">
+                <img src="images/icon-up.svg" alt="icon-up" />
+                <p>3%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="facebook__likes">
+            <div class="left">
+              <p>Likes</p>
+              <h2>52</h2>
+            </div>
+
+            <div class="right">
+              <img src="images/icon-facebook.svg" alt="facebook-icon" />
+              <div class="status flex">
+                <img src="images/icon-down.svg" alt="icon-down" />
+                <p>2%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="instagram__likes">
+            <div class="left">
+              <p>Likes</p>
+              <h2>5462</h2>
+            </div>
+
+            <div class="right">
+              <img src="images/icon-instagram.svg" alt="instagram-icon" />
+              <div class="status flex">
+                <img src="images/icon-up.svg" alt="icon-up" />
+                <p>2257%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="instagram__views">
+            <div class="left">
+              <p>Profile Views</p>
+              <h2>52k</h2>
+            </div>
+
+            <div class="right">
+              <img src="images/icon-instagram.svg" alt="instagram-icon" />
+              <div class="status flex">
+                <img src="images/icon-up.svg" alt="icon-up" />
+                <p>1375%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="twitter__tweets">
+            <div class="left">
+              <p>Retweets</p>
+              <h2>117</h2>
+            </div>
+
+            <div class="right">
+              <img src="images/icon-twitter.svg" alt="twitter-icon" />
+              <div class="status flex">
+                <img src="images/icon-up.svg" alt="icon-up" />
+                <p>303%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="twitter__likes">
+            <div class="left">
+              <p>Likes</p>
+              <h2>507</h2>
+            </div>
+
+            <div class="right">
+              <img src="images/icon-twitter.svg" alt="twitter-icon" />
+              <div class="status flex">
+                <img src="images/icon-up.svg" alt="icon-up" />
+                <p>553%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="youtube__likes">
+            <div class="left">
+              <p>Likes</p>
+              <h2>107</h2>
+            </div>
+
+            <div class="right">
+              <img src="images/icon-youtube.svg" alt="youtube-icon" />
+              <div class="status flex">
+                <img src="images/icon-down.svg" alt="icon-down" />
+                <p>19%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="youtube__views">
+            <div class="left">
+              <p>Total Views</p>
+              <h2>1407</h2>
+            </div>
+
+            <div class="right">
+              <img src="images/icon-youtube.svg" alt="youtube-icon" />
+              <div class="status flex">
+                <img src="images/icon-down.svg" alt="icon-down" />
+                <p>12%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
